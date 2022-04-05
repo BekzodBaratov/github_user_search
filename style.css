@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: sans-serif;
+  color: #222;
+  background-color: palegoldenrod;
+}
+.container {
+  width: 90%;
+  margin-left: 5%;
+}
+.header {
+  height: 5vh;
+  background-color: blue;
+  color: #f0f0f0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section,
+.user,
+.user-repo {
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+  background-color: #f8f8f8;
+}
+.main-section h1 {
+  margin-bottom: 1rem;
+}
+.main-section input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  font-size: 1.2rem;
+}
+/* user section */
+
+.user {
+  display: flex;
+  gap: 2rem;
+  border: 1px solid gray;
+}
+.user-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+}
+.user-img img {
+  width: 100%;
+  /* height: 40vh; */
+  border: 1px solid gray;
+}
+.user-img a {
+  background-color: blue;
+  border-radius: 0.3rem;
+  height: 6vh;
+  color: #f0f0f0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.user-info {
+  width: 70%;
+}
+.user-item span,
+.user-infos span {
+  background-color: blue;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  color: #f0f0f0;
+  margin-right: 0.1rem;
+}
+.user-item2 {
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+.user-item2 h3 {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 1rem;
+}
+.user-repo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.user-repo a {
+  text-decoration: none;
+}
+.user-repo a:hover {
+  text-decoration: underline;
+}
+.footer-section {
+  text-align: center;
+}
