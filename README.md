@@ -1,3 +1,2 @@
-# github_user_search
-https://bekzodbaratov.github.io/github_user_search/
-User
+# github_user_search with api
+https://bekzodbaratov.github.io/github_user_search
